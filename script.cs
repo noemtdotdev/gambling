@@ -464,7 +464,7 @@ namespace BlackjackSimulation
             IBlackjackStrategy strategy = new BasicStrategy();
             BlackjackSimulator simulator = new BlackjackSimulator(strategy, 6);
             
-            int numRounds = 1000000;
+            int numRounds = 1000000000;
             Console.WriteLine("Running " + numRounds.ToString("N0") + " simulations...");
             
             DateTime startTime = DateTime.Now;
